@@ -11,16 +11,22 @@
 </head>
 
 <body>
+
+    <!-- loader section  -->
+    <div id="loader">
+        <h1>o%</h1>
+    </div>
+
     <div id="header">
         <div class="container">
             <nav>
-                <a href="#"><img src="Logo.png" class="logo" alt="image not found"></a>
+                <a href="#" id="nav-link"><img src="Logo.png" class="logo" alt="image not found"></a>
                 <ul id="slidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#header" id="nav-link">Home</a></li>
+                    <li><a href="#about" id="nav-link">About</a></li>
+                    <li><a href="#services" id="nav-link">Services</a></li>
+                    <li><a href="#portfolio" id="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" id="nav-link">Contact</a></li>
                     <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
@@ -227,6 +233,12 @@
         </div>
     </div>
 </body>
+
+<!-- gsap script cdn  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- scroll trigger cdn  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="gsap.js"></script>
 <script src="script.js"></script>
 
 </html>
